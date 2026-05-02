@@ -2,7 +2,7 @@
 
 > An AI-powered enquiry assistant that handles student queries, provides course recommendations, captures leads, and automates follow-ups — all through a WhatsApp-style chat interface.
 
-**Built for:** QuAnHack Internship — Final Round Submission  
+
 **Problem Statement:** Educational Institutions – Enquiry Assistant
 
 ---
