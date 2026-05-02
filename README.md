@@ -225,7 +225,7 @@ ai-enquiry-assistant/
 ## 👤 Author
 
 **Tirthu Padhyay**  
-Built for QuAnHack Internship — Final Round Submission
+
 
 ---
 
