@@ -224,7 +224,7 @@ ai-enquiry-assistant/
 
 ## 👤 Author
 
-**Tirthu Padhyay**  
+**Tirth Upadhyay**  
 
 
 ---
