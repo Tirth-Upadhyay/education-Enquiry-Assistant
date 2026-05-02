@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "What are the admission requirements?",
+    "answer": "Admission requirements vary by program. Generally, you need a high school diploma or equivalent for undergraduate programs, and a bachelor's degree for postgraduate programs. Some technical courses may require basic knowledge of programming or mathematics.",
+    "keywords": ["admission", "requirements", "eligibility", "qualify", "criteria", "apply"],
+    "category": "admissions"
+  },
+  {
+    "id": 2,
+    "question": "How do I apply for a course?",
+    "answer": "You can apply online through our website or visit our campus. The process involves: 1) Fill out the application form, 2) Submit required documents (ID proof, academic transcripts), 3) Pay the registration fee, 4) Attend a counseling session. You can also start by chatting with me — I'll capture your details and our team will reach out!",
+    "keywords": ["apply", "application", "enroll", "register", "registration", "join", "sign up"],
+    "category": "admissions"
+  },
+  {
+    "id": 3,
+    "question": "What is the fee structure?",
+    "answer": "Our fee structure depends on the course selected. Short-term certification courses range from ₹5,000 to ₹15,000, diploma programs from ₹20,000 to ₹50,000, and advanced professional programs from ₹50,000 to ₹1,50,000. EMI options and scholarships are available for eligible students.",
+    "keywords": ["fee", "fees", "cost", "price", "charges", "payment", "tuition", "emi", "installment"],
+    "category": "fees"
+  },
+  {
+    "id": 4,
+    "question": "Do you offer scholarships?",
+    "answer": "Yes! We offer merit-based scholarships (up to 50% fee waiver), need-based financial aid, and early bird discounts for students who enroll before the deadline. Top performers in entrance assessments may receive full scholarships.",
+    "keywords": ["scholarship", "financial aid", "discount", "waiver", "merit", "free"],
+    "category": "fees"
+  },
+  {
+    "id": 5,
+    "question": "What are the placement statistics?",
+    "answer": "Our placement record is strong: 85% of students get placed within 3 months of course completion. Average starting salary is ₹4.5 LPA, with top packages reaching ₹12 LPA. Our hiring partners include TCS, Infosys, Wipro, Accenture, and several startups.",
+    "keywords": ["placement", "placements", "job", "jobs", "career", "hiring", "recruit", "salary", "package", "placed"],
+    "category": "placements"
+  },
+  {
+    "id": 6,
+    "question": "Do you provide placement assistance?",
+    "answer": "Absolutely! We provide comprehensive placement support including: resume building workshops, mock interviews, soft skills training, portfolio development, LinkedIn optimization, and direct referrals to our 100+ hiring partners.",
+    "keywords": ["placement assistance", "placement support", "interview", "resume", "job help", "career support"],
+    "category": "placements"
+  },
+  {
+    "id": 7,
+    "question": "What are the class timings?",
+    "answer": "We offer flexible batch timings: Morning Batch (9 AM – 12 PM), Afternoon Batch (1 PM – 4 PM), Evening Batch (6 PM – 9 PM), and Weekend Batch (Saturday & Sunday, 10 AM – 4 PM). Online live classes are also available for select courses.",
+    "keywords": ["timing", "timings", "time", "schedule", "batch", "hours", "when", "morning", "evening", "weekend"],
+    "category": "schedule"
+  },
+  {
+    "id": 8,
+    "question": "Do you offer online classes?",
+    "answer": "Yes, we offer both online live classes and hybrid (online + offline) options. Online classes are conducted via Zoom/Google Meet with recorded sessions available for revision. All study materials are accessible through our learning portal.",
+    "keywords": ["online", "remote", "virtual", "zoom", "hybrid", "distance", "from home"],
+    "category": "schedule"
+  },
+  {
+    "id": 9,
+    "question": "What courses do you offer?",
+    "answer": "We offer a wide range of industry-relevant courses including: AI & Machine Learning, Full-Stack Web Development, Data Science & Analytics, Cloud Computing & DevOps, Cybersecurity, Mobile App Development, UI/UX Design, and Digital Marketing. Each course includes hands-on projects and industry mentorship.",
+    "keywords": ["courses", "course", "programs", "program", "offer", "available", "list", "all courses", "what do you teach"],
+    "category": "courses"
+  },
+  {
+    "id": 10,
+    "question": "What is the duration of courses?",
+    "answer": "Course durations vary: Certification courses are 2-3 months, Diploma programs are 4-6 months, and Advanced Professional programs are 6-12 months. We also offer intensive bootcamp formats (8-12 weeks) for fast-track learning.",
+    "keywords": ["duration", "how long", "length", "months", "weeks", "time period"],
+    "category": "courses"
+  },
+  {
+    "id": 11,
+    "question": "Do you provide certificates?",
+    "answer": "Yes, upon successful completion of any course, you receive an industry-recognized certificate. Our certificates are validated by our industry partners and include a unique verification code. We also help students earn additional certifications from AWS, Google, Microsoft, etc.",
+    "keywords": ["certificate", "certification", "certified", "diploma", "credential"],
+    "category": "courses"
+  },
+  {
+    "id": 12,
+    "question": "Where is your campus located?",
+    "answer": "Our main campus is located in the heart of the city with excellent connectivity via public transport. We have modern labs, a library, cafeteria, and recreational facilities. Contact us for the exact address and directions.",
+    "keywords": ["location", "located", "address", "where", "campus", "place", "directions", "map"],
+    "category": "general"
+  },
+  {
+    "id": 13,
+    "question": "Can I get a demo class?",
+    "answer": "Yes! We offer a free demo class for every course so you can experience our teaching methodology before enrolling. You can book a demo class through our website or simply share your contact details with me, and our team will schedule one for you.",
+    "keywords": ["demo", "trial", "free class", "sample", "try", "test class", "experience"],
+    "category": "general"
+  },
+  {
+    "id": 14,
+    "question": "What is the faculty profile?",
+    "answer": "Our faculty consists of industry professionals with 5-15 years of experience from companies like Google, Amazon, Microsoft, and top startups. Many hold advanced degrees (M.Tech, PhD) and are active contributors to open-source projects and research.",
+    "keywords": ["faculty", "teachers", "instructor", "professor", "trainer", "mentor", "who teaches"],
+    "category": "general"
+  },
+  {
+    "id": 15,
+    "question": "Do you offer internship opportunities?",
+    "answer": "Yes, our advanced courses include mandatory internship components with our partner companies. We also facilitate internship placements for students who complete certification courses. Internship stipends range from ₹5,000 to ₹25,000 per month.",
+    "keywords": ["internship", "intern", "practical", "hands-on", "real world", "industry exposure", "stipend"],
+    "category": "placements"
+  },
+  {
+    "id": 16,
+    "question": "What are the prerequisites for AI/ML course?",
+    "answer": "For our AI/ML course, basic knowledge of Python programming and high school mathematics (linear algebra, probability, statistics) is recommended. If you're a complete beginner, we offer a 2-week foundation module to get you up to speed before the main course starts.",
+    "keywords": ["prerequisite", "requirements for ai", "need to know", "background", "preparation", "before joining"],
+    "category": "courses"
+  },
+  {
+    "id": 17,
+    "question": "Do you offer EMI or payment plans?",
+    "answer": "Yes, we offer flexible payment options: 1) Full upfront payment with 10% discount, 2) 3-month EMI (0% interest), 3) 6-month EMI (minimal interest), 4) Income Share Agreement (ISA) for select premium courses — you pay after you get placed!",
+    "keywords": ["emi", "installment", "payment plan", "pay later", "isa", "income share"],
+    "category": "fees"
+  },
+  {
+    "id": 18,
+    "question": "How can I contact support?",
+    "answer": "You can reach us through: Phone: +91-9876543210, Email: admissions@techinstitute.edu, WhatsApp: +91-9876543210, or visit our campus during office hours (9 AM – 6 PM, Mon-Sat). You can also chat with me anytime for instant assistance!",
+    "keywords": ["contact", "support", "help", "phone", "email", "call", "reach", "talk", "speak"],
+    "category": "general"
+  },
+  {
+    "id": 19,
+    "question": "What projects will I work on during the course?",
+    "answer": "Each course includes 3-5 hands-on projects based on real-world scenarios. For example, AI/ML students build a recommendation system and a chatbot, Web Dev students create full-stack e-commerce apps, and Data Science students work with real datasets from our industry partners. You'll also complete a capstone project.",
+    "keywords": ["project", "projects", "hands-on", "practical", "build", "capstone", "portfolio"],
+    "category": "courses"
+  },
+  {
+    "id": 20,
+    "question": "Is there a refund policy?",
+    "answer": "Yes, we have a transparent refund policy: Full refund if you withdraw within 7 days of enrollment and before attending 3 classes. 50% refund within 15 days. No refund after 15 days. Demo class attendees can make informed decisions before committing.",
+    "keywords": ["refund", "money back", "cancel", "withdraw", "return"],
+    "category": "fees"
+  }
+]

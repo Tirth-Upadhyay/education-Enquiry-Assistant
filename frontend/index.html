@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered enquiry assistant for educational institutions. Get instant answers about courses, fees, placements, and more.">
+    <title>TechEd AI Assistant — Smart Enquiry System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="header-left">
+                <div class="avatar-container">
+                    <div class="avatar">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/>
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                        </svg>
+                    </div>
+                    <span class="online-dot"></span>
+                </div>
+                <div class="header-info">
+                    <h1>TechEd AI Assistant</h1>
+                    <p class="status-text">Online • AI-Powered</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <button class="icon-btn" id="leadsBtn" title="View Captured Leads">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                    <span class="badge" id="leadsBadge">0</span>
+                </button>
+                <button class="icon-btn" id="clearBtn" title="Clear Chat">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="3 6 5 6 21 6"/>
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Chat Messages -->
+        <main class="chat-messages" id="chatMessages">
+            <!-- Welcome message -->
+            <div class="date-separator">
+                <span>Today</span>
+            </div>
+            <div class="message bot-message animate-in">
+                <div class="message-content">
+                    <p>Hello! 👋 Welcome to <strong>TechEd Institute</strong>!</p>
+                    <p>I'm your AI assistant, here to help you explore our courses, answer questions, and get you started on your learning journey. 🎓</p>
+                    <p>How can I help you today?</p>
+                </div>
+                <span class="message-time">Now</span>
+            </div>
+        </main>
+
+        <!-- Quick Replies -->
+        <div class="quick-replies" id="quickReplies">
+            <button class="quick-reply-btn" data-message="What courses do you offer?">📚 View Courses</button>
+            <button class="quick-reply-btn" data-message="What is the fee structure?">💰 Fee Structure</button>
+            <button class="quick-reply-btn" data-message="What are the placement statistics?">🎯 Placements</button>
+            <button class="quick-reply-btn" data-message="I want to enroll">📝 Enroll Now</button>
+        </div>
+
+        <!-- Input Area -->
+        <footer class="chat-input-area">
+            <div class="input-container">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Type your message..." 
+                    autocomplete="off"
+                    aria-label="Type your message"
+                >
+                <button class="send-btn" id="sendBtn" title="Send Message" disabled>
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                    </svg>
+                </button>
+            </div>
+            <p class="input-hint">Powered by AI • Ask me anything about courses, fees, or placements</p>
+        </footer>
+
+        <!-- Leads Modal -->
+        <div class="modal-overlay" id="leadsModal">
+            <div class="modal">
+                <div class="modal-header">
+                    <h2>📋 Captured Leads</h2>
+                    <button class="modal-close" id="closeModal">&times;</button>
+                </div>
+                <div class="modal-body" id="leadsContent">
+                    <p class="empty-state">No leads captured yet</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
